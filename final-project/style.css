@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  nav {
+    background-color: #494242;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  nav .logo img {
+    height: 40px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  .main {
+    padding: 20px;
+  }
+  
+  .panel {
+    display: flex;
+    background-color: #979797;
+    margin-bottom: 20px;
+  }
+  
+  .panel .column {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .panel .column.skills {
+    border-right: 1px solid #ccc;
+  }
+  
+  .panel .column.hobbies {
+    border-left: 1px solid #ccc;
+  }
+  
+  .panel:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .advice-panel {
+    background-color: #ccc;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+
+  nav {
+    background-color: #333; 
+  }
+  
+  nav ul {
+    list-style-type: none; 
+  }
+  
+  nav ul li {
+    display: inline; 
+  }
+  
+  nav ul li a {
+    color: white; 
+    text-decoration: none; 
+    padding: 10px; 
+  }
+  
+  nav ul li a:hover {
+    background-color: #555; 
+  }
+
+  nav {
+    background-color: #333; /* Setting background color for the navigation bar */
+    display: flex; /* Using flexbox to align items */
+    align-items: center; /* Centering items vertically */
+    padding: 10px; /* Adding padding */
+  }
+  
+  .logo img {
+    height: 40px; /* Setting the height of the logo */
+  }
+  
+  nav ul {
+    list-style-type: none; /* Removing default bullet points from the list */
+    margin: 0; /* Removing default margin */
+    padding: 0; /* Removing default padding */
+  }
+  
+  nav ul li {
+    display: inline; /* Displaying list items horizontally */
+    margin-right: 20px; /* Adding margin between list items */
+  }
+  
+  nav ul li:last-child {
+    margin-right: 0; /* Removing margin from the last list item */
+  }
+  
+  nav ul li a {
+    color: white; /* Setting text color to white */
+    text-decoration: none; /* Removing underline from links */
+  }
+  
+  .advice-panel {
+    display: flex;
+    align-items: center;
+  }
+  
+  .advice-panel h3 {
+    margin: 0;
+  }
+  
+  .advice-panel p {
+    margin: 0;
+    margin-left: 10px; /* Add some spacing between the heading and the paragraph */
+  }
+  
